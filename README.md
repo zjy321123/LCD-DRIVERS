@@ -7,4 +7,4 @@ https://www.keil.arm.com/packs/?q=LVGL&pack-search=             arm官网LVGL pa
 https://blog.csdn.net/qq_59953808/article/details/126445608     LVGL 源代码 参考链接
 lvgl\env_support\cmsis-pack\LVGL.lvgl.9.2.0.pack                LVGL 源代码 Pack目录
 V2.0.1  修改了LVGL的刷新率。刷新速度从80ms左右变成了60ms左右,修改了lvgl的源代码编译器类型报警提示。
-V3.0.0  增加了GUI-GUIDER支持，增加lVGL设备输入组件支持
+V3.0.0  增加了GUI-GUIDER支持，增加lVGL设备输入组件支持,极限全屏测试刷新

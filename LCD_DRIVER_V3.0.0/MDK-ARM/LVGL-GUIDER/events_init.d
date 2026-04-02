@@ -181,5 +181,4 @@ lvgl-guider\events_init.o: D:\Program Files\ArmPack\LVGL\lvgl\9.2.1\src/drivers/
 lvgl-guider\events_init.o: D:\Program Files\ArmPack\LVGL\lvgl\9.2.1\src/lv_api_map_v8.h
 lvgl-guider\events_init.o: D:\Program Files\ArmPack\LVGL\lvgl\9.2.1\src/lv_api_map_v9_0.h
 lvgl-guider\events_init.o: D:\Program Files\ArmPack\LVGL\lvgl\9.2.1\src/lv_api_map_v9_1.h
-lvgl-guider\events_init.o: ../Bsp/MyGuiGuiderUIs/myguideruis.h
 lvgl-guider\events_init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

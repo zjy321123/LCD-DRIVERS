@@ -642,6 +642,31 @@
               <FileType>1</FileType>
               <FilePath>..\Bsp\MyGuiGuiderUIs\myguideruis.c</FilePath>
             </File>
+            <File>
+              <FileName>screen.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\MyGuiGuiderUIs\screen.c</FilePath>
+            </File>
+            <File>
+              <FileName>screen_1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\MyGuiGuiderUIs\screen_1.c</FilePath>
+            </File>
+            <File>
+              <FileName>screen_2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\MyGuiGuiderUIs\screen_2.c</FilePath>
+            </File>
+            <File>
+              <FileName>screen_3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\MyGuiGuiderUIs\screen_3.c</FilePath>
+            </File>
+            <File>
+              <FileName>screen_4.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Bsp\MyGuiGuiderUIs\screen_4.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

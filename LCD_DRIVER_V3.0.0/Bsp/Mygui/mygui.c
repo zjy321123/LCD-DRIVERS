@@ -15,6 +15,12 @@ static lv_color_t color_palette[15];
 static int color_initialized = 0;
 static lv_obj_t *fps_test_obj = NULL;
 
+/**
+ * @brief   初始化颜色调色板
+ * @author  zjy
+ * @date    2025.04.02
+ * @retval  无
+ */
 static void init_color_palette(void)
 {
     if (color_initialized)
@@ -36,7 +42,12 @@ static void init_color_palette(void)
     color_palette[14] = lv_color_hex(0x004080);
     color_initialized = 1;
 }
-
+/**
+ * @brief   随机更新颜色
+ * @author  zjy
+ * @date    2025.04.02
+ * @retval  无
+ */
 static void random_update_cb(lv_timer_t *timer)
 {
     for (int i = 0; i < 9; i++)
@@ -48,7 +59,12 @@ static void random_update_cb(lv_timer_t *timer)
         lv_label_set_text_fmt(labels[i], "%d", new_num);
     }
 }
-
+/**
+ * @brief   刷新FPS显示
+ * @author  zjy
+ * @date    2025.04.02
+ * @retval  无
+ */
 static void fps_refresh_cb(lv_timer_t *timer)
 {
     static uint32_t color_idx = 0;
@@ -61,7 +77,12 @@ static void fps_refresh_cb(lv_timer_t *timer)
     lv_obj_set_style_bg_color(fps_test_obj, colors[color_idx % 4], 0);
     color_idx++;
 }
-
+/**
+ * @brief   启动FPS测试
+ * @author  zjy
+ * @date    2025.04.02
+ * @retval  无
+ */
 void lv_fps_test_start(void)
 {
     lv_obj_clean(lv_scr_act());
@@ -77,7 +98,12 @@ void lv_fps_test_start(void)
 
     lv_timer_create(fps_refresh_cb, 1, NULL);
 }
-
+/**
+ * @brief   测试标签
+ * @author  zjy
+ * @date    2025.04.02
+ * @retval  无
+ */
 void lv_ex_label(void)
 {
     init_color_palette();
